@@ -1,6 +1,3 @@
-data-science-cleaning
-=====================
-
 # Getting and Cleaning Data Project
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis
@@ -19,3 +16,13 @@ You should create one R script called run_analysis.R that does the following.
 * Uses descriptive activity names to name the activities in the data set
 * Appropriately labels the data set with descriptive activity names. 
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+
+
+## Running the script
+
+•Clone this repository
+•Download the data set and extract. It should result in a  UCI HAR Dataset  folder that has all the files in the required structure.
+•Change current directory to the  UCI HAR Dataset  folder.
+•Run  Rscript <path to>/run_analysis.R  
+•The tidy dataset should get created in the current directory as  tidy.txt  
